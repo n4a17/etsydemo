@@ -10,9 +10,9 @@ gem 'turbolinks'
 gem 'spring',        group: :development
 gem 'bootstrap-sass', '~> 3.1.1'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
-gem "paperclip-dropbox", ">= 1.1.7"
+gem "paperclip-dropbox"
 gem "figaro"
-gem 'devise'
+
 
 group :production do
   gem 'pg'
